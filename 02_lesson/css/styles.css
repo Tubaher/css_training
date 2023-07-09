@@ -1,0 +1,56 @@
+body {
+  /* border: 3px solid black; */
+}
+
+p {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+p span {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: red;
+}
+
+/* It selects everything */
+/* * {
+  font-family: monospace;
+  border: 5px solid black;
+} */
+
+/* forms elements do not typically inherit fonts settings */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+html {
+  font-size: 22px;
+}
+
+main {
+  font-family: monospace;
+}
